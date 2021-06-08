@@ -33,7 +33,7 @@
             .then(data => {
                 displayData(data)
                 displayMap(data)
-                console.log(data);
+                
             })
         } else {
             fetch(`${api.url}apiKey=${api.key}&ipAddress=${input.value}
@@ -55,6 +55,7 @@
     
 
     function displayData(data) {
+        input.value = data.ip;
         ipAdressDOM.innerText = data.ip;
         locationDOM.innerText = `${data.location.city}, ${data.location.country}`
         timezoneDOM.innerText = data.location.timezone
@@ -66,10 +67,9 @@
             iconUrl: 'images/icon-location.svg',
             
         
-            iconSize:     [46, 56], // size of the icon
+            iconSize:     [46, 56], 
             
-            iconAnchor:   [23, 0], // point of the icon which will correspond to marker's location
-            
+            iconAnchor:   [23, 0], 
             
         });
 
