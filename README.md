@@ -13,4 +13,4 @@ User is able to view his currrent ip adress and its info, or type in some ip add
    - Leaflet JS (map)
    - Ipify API (get data about IP)
    
-Live URL : click (here)[https://ip-adress-track.netlify.app]
+Live URL : click [here](https://ip-adress-track.netlify.app)
