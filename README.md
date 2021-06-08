@@ -14,3 +14,5 @@ User is able to view his currrent ip adress and its info, or type in some ip add
    - Ipify API (get data about IP)
    
 Live URL : click [here](https://ip-adress-track.netlify.app)
+
+Designed by [Frontend Mentor](https://www.frontendmentor.io/solutions)
